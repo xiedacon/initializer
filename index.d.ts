@@ -16,6 +16,7 @@ export interface Boilerplate {
   variables: Array<DistinctQuestion>;
   extend: string | Array<string>;
   files: Array<{ name: string, path: string }>;
+  usage?: string | ((command: Command) => any);
 }
 
 export type BoilerplateConfig = ((command: Command) => Partial<Boilerplate>) | Partial<Boilerplate>;
