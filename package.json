@@ -1,0 +1,37 @@
+{
+  "name": "initializer",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test-style && echo 'test finish'",
+    "test-style": "eslint --fix ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiedacon/initializer.git"
+  },
+  "keywords": [],
+  "author": "xiedacon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xiedacon/initializer/issues"
+  },
+  "homepage": "https://github.com/xiedacon/initializer#README.md",
+  "devDependencies": {
+    "@types/node": "^14.0.1",
+    "@types/yargs": "^15.0.5",
+    "eslint": "^6.0.1",
+    "eslint-config-egg": "^6.0.0"
+  },
+  "dependencies": {
+    "art-template": "^4.13.2",
+    "colors": "^1.4.0",
+    "glob": "^7.1.6",
+    "inquirer": "^7.1.0",
+    "istextorbinary": "^4.3.0",
+    "lodash": "^4.17.15",
+    "mz-modules": "^2.1.0",
+    "yargs": "^15.3.1"
+  }
+}
