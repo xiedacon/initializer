@@ -21,8 +21,8 @@
   "devDependencies": {
     "@types/node": "^14.0.1",
     "@types/yargs": "^15.0.5",
-    "eslint": "^6.0.1",
-    "eslint-config-egg": "^6.0.0"
+    "eslint": "^7.2.0",
+    "eslint-config-egg": "^8.0.1"
   },
   "files": [
     "bin",
