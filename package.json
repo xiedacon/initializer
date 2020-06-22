@@ -1,28 +1,12 @@
 {
   "name": "initializer",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "",
   "main": "index.js",
+  "keywords": [],
   "scripts": {
     "test": "npm run test-style && echo 'test finish'",
     "test-style": "eslint --fix ."
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/xiedacon/initializer.git"
-  },
-  "keywords": [],
-  "author": "xiedacon",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/xiedacon/initializer/issues"
-  },
-  "homepage": "https://github.com/xiedacon/initializer#README.md",
-  "devDependencies": {
-    "@types/node": "^14.0.1",
-    "@types/yargs": "^15.0.5",
-    "eslint": "^6.0.1",
-    "eslint-config-egg": "^6.0.0"
   },
   "dependencies": {
     "art-template": "^4.13.2",
@@ -33,5 +17,28 @@
     "lodash": "^4.17.15",
     "mz-modules": "^2.1.0",
     "yargs": "^15.3.1"
-  }
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.1",
+    "@types/yargs": "^15.0.5",
+    "eslint": "^6.0.1",
+    "eslint-config-egg": "^6.0.0"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "index.js",
+    "index.d.ts",
+    "README.md"
+  ],
+  "homepage": "https://github.com/xiedacon/initializer#README.md",
+  "bugs": {
+    "url": "https://github.com/xiedacon/initializer/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiedacon/initializer.git"
+  },
+  "author": "xiedacon",
+  "license": "mit"
 }
